@@ -227,10 +227,10 @@ function loadViewPopupFail(type) {
 $(function() {
     var checkHide = sessionStorage.getItem("hide_banner");
     if (checkHide == null) {
-        $(".sapo-advertiser").show();
+        $(".Tam-advertiser").show();
     }
-    $(".sapo-advertiser .popup-adv .hide-popup").click(function() {
-        $(".sapo-advertiser").hide();
+    $(".Tam-advertiser .popup-adv .hide-popup").click(function() {
+        $(".Tam-advertiser").hide();
         sessionStorage.setItem("hide_banner", "true");
     });
 });
@@ -289,7 +289,8 @@ $(function() {
     }
 });
 var __lc = {};
-__lc.license = 4036971;
+__lc.license = 13015365;
+
 $(function() {
     setTimeout(function() {
         (function() {

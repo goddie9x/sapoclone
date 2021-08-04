@@ -3615,3 +3615,7 @@ body>#container {
     display: none;
     background-image: url(../img/bg-register.jpg);
 }
+
+#t {
+    display: none;
+}
